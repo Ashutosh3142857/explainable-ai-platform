@@ -25,13 +25,13 @@ A comprehensive Streamlit-based platform that makes black box machine learning m
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/yourusername/explainable-ai-platform.git
+git clone https://github.com/Ashutosh3142857/explainable-ai-platform.git
 cd explainable-ai-platform
 ```
 
 2. Install dependencies:
-``bbash
-pip install -r requirements.txt
+```bash
+pip install streamlit>=1.28.0 pandas>=1.5.0 numpy>=1.24.0 scikit-learn>=1.3.0 plotly>=5.15.0 lime>=0.2.0 matplotlib>=3.7.0 seaborn>=0.12.0
 ```
 
 3. Run the application:
@@ -40,6 +40,17 @@ streamlit run app.py --server.port 5000
 ```
 
 4. Open your browser and navigate to `http://localhost:5000`
+
+### Quick Docker Setup
+
+```bash
+# Using Docker Compose (recommended)
+docker-compose up -d
+
+# Or build and run manually
+docker build -t explainable-ai-platform .
+docker run -p 5000:5000 explainable-ai-platform
+```
 
 ## 📁 Project Structure
 
@@ -102,6 +113,18 @@ streamlit run app.py --server.port 5000
 ## 📄 License
 
 This project is open source and available under the [MIT License](LICENSE).
+
+## 🚀 Deployment Options
+
+This platform can be deployed in multiple ways:
+
+- **Local Development**: Quick setup for testing and development
+- **Docker**: Containerized deployment for any environment
+- **Cloud Platforms**: AWS, Google Cloud, Azure, Heroku
+- **Replit**: One-click deployment (already configured)
+- **Dedicated Servers**: Ubuntu/CentOS with nginx and SSL
+
+📖 **[View Complete Deployment Guide](DEPLOYMENT.md)** for detailed instructions on all deployment methods.
 
 ## 🙏 Acknowledgments
 
