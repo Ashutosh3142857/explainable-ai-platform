@@ -9,6 +9,13 @@ This is a Real-Time LLM Neural Pathway Visualizer built with Streamlit that prov
 - ✓ Implemented head-specific specializations (positional, semantic, entity recognition, causal reasoning)
 - ✓ Added context-aware neural pathway generation that adapts to prompt content
 - ✓ Fixed interactive controls to update visualizations without breaking analysis flow
+- ✓ Added Advanced Visual Debugging & Attribution tab with comprehensive model interpretability features
+- ✓ Implemented ELI5 feature importance visualization for text and tabular data analysis
+- ✓ Added SHAP analysis with support for text, tabular, and deep learning models
+- ✓ Integrated LIME analysis for local interpretable model explanations (text, tabular, image)
+- ✓ Created custom PyTorch attribution methods (Integrated Gradients, Gradient × Input)
+- ✓ Built Open Circuit Tracing for neural pathway visualization using NetworkX graphs
+- ✓ Added comprehensive comparison view of all attribution methods with selection guide
 
 # User Preferences
 
@@ -45,6 +52,7 @@ Preferred communication style: Simple, everyday language.
 - **Real-time Mode**: Live processing simulation with progress indicators and status updates
 - **Advanced View**: Multi-head attention comparison and detailed token-level analysis
 - **Comparison Mode**: Side-by-side analysis of different explanation techniques with interactive comparisons
+- **Advanced Debugging**: Comprehensive attribution methods including ELI5, SHAP, LIME, PyTorch methods, and circuit tracing
 - **Prompt Examples**: Pre-built example prompts for different types of language tasks
 - **Dynamic Visualization**: User-selectable layers, attention heads, and tokens for detailed inspection
 
@@ -74,5 +82,8 @@ Preferred communication style: Simple, everyday language.
 - **Interactive Controls**: Layer/head selection, token analysis, and view mode selection (Standard/Advanced/Comparison)
 - **Example Prompt Library**: Pre-configured prompts for different language model tasks
 - **Comparison Engine**: Side-by-side analysis of attention patterns, neural pathways, layer activations, and reasoning processes
+- **Advanced Attribution Methods**: ELI5, SHAP, LIME, PyTorch Integrated Gradients, Circuit Tracing with comprehensive visualizations
+- **Method Selection Guide**: Intelligent recommendations based on model type, priority, and analysis scope
 - **Technique Evaluation**: Reliability scoring and use-case analysis for different explanation methods
 - **Pathway Interaction Networks**: Visual representation of critical pathway connections and strengths
+- **Multi-Modal Analysis**: Support for text, tabular, and image explanation methods
